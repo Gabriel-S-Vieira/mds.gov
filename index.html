@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5f67ba980d.js" crossorigin="anonymous"></script>
+  <title>mds.gov | inicio</title>
+    <script defer src="./motion.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  </style>
+  <style>
+    
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container1 {
+      background-image: url(./src/Desenvolvimento-Sustentavel.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 35rem;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    p {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .btn2:hover {
+        cursor: pointer;
+        background-color: #4ca3ff;
+        transition: opacity, 200ms;
+    }
+
+    .btn2 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.315);
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .btnContainer {
+        flex: 1;
+        display: flex;
+        place-content: center;
+    }
+
+    .maintext {
+        color: white;
+        line-height: 20px;
+        font-size: 2rem;
+        width: 100%;
+        text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.49);
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .subtext{
+        padding-bottom: 2rem;
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 2px;
+        display: flex;
+    }
+
+    .subtext h3{
+        font-weight: 500;
+        font-size: 1.5rem;
+        text-shadow: 0px 1px 3px black;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #f5f5f5;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      flex-grow: 1;
+      text-align: left;
+    }
+
+    .logo p {
+      max-width: 100px;
+    }
+
+    .logo > a {
+        text-decoration: none;
+        font-weight: 800;
+        color: black;
+    }
+
+    .header-buttons {
+      text-align: right;
+    }
+
+    .btns {
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .diff {
+        border: 1.5px solid black;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .paragraph{
+        width: 55%;
+        max-width: 40rem;
+    }
+
+    .container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 5rem;
+    }
+
+    .profileContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 7rem;
+    }
+
+    .profileContainer img {
+        border-radius: 20rem;
+        height: 3.4rem;
+    }
+
+    .nicks p {
+        margin: 0;
+    }
+
+    .nicks h3 {
+        margin: 0;
+    }
+
+    .nicks {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        height: 5rem;
+    }
+
+    .container3 {
+      background-image: linear-gradient(0deg, rgba(0, 128, 0, 0.436), white, white);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 30rem;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      flex-direction: column;
+    }
+
+    .header {
+        position: fixed;
+        width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+
+
+    <!-- coisas para encher linguiça -->
+
+    <div class="coisas" id="coisas">
+        <style>
+          .cookies {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 2;
+            background-color: white;
+            box-shadow: 0px 0px 10px black;
+            border: none;
+            width: 90%;
+            height: 8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4rem;
+            border-radius: 2rem;
+            margin-bottom: 2rem;
+          }
+        </style>
+      
+        <div class="cookies">
+          <div class="sla" style="text-align: left; display: flex; flex-direction: column; line-height: 0px;">
+            <p>Seus dados são importantes para nossa pesquisa.</p>
+            <p>Podemos usar seus dados?</p>
+          </div>
+      
+          <style>
+            .slk {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              gap: 5px;
+            }
+          </style>
+          <div class="slk">
+            <button class="btn" id="but">Aceitar</button>
+            <button class="btn" id="but">Negar</button>
+          </div>
+        </div>
+      </div>
+      
+
+    <!-- coisas para encher linguiça -->
+
+  <header class="header">
+    <div class="logo">
+      <a href="./index.html">
+        <p>mds.gov</p>
+      </a>
+    </div>
+    <div class="header-buttons">
+
+    <a href="./pontos.html">
+      <button class="btn2">Pontos de doação</button>
+      </a>
+
+      <a href="./avanços.html">
+      <button class="btn2">Conheça os avanços</button>
+      </a>
+      <button class="btn2">Financeiro</button>
+    </div>
+  </header>
+
+  <div class="container1">
+    <div class="maintext">
+      <h1>mds.gov</h1>
+      <div class="subtext">
+        <h3>ministerio de desenvolvimento sustentavel</h3>
+      </div>
+
+      <div class="btns">
+        <a href="./login.html">
+        <button class="btn2">faça login</button>
+        </a>
+
+        <a href="./sign.html">
+        <button class="btn2 diff">cadastro</button>
+        </a>    
+      </div>
+    </div>
+    </div>
+
+    <div class="profileContainer">
+        <img src="./src/4073.jpg" alt="">
+        <div class="nicks">
+        <p>yasuo • <span style="font-weight: 300">colunista formado em jornalismo</span></p>
+        <h3>Desenvolvimento Sustentável: Cuidando do Nosso Futuro</h2>
+        </div>
+        </div>
+
+    <div class="container2">
+        <div class="paragraph">
+        <p>Oi pessoal! Hoje eu quero falar com vocês sobre um assunto superimportante: o desenvolvimento sustentável. Tenho certeza de que vocês já ouviram falar sobre isso, mas vocês sabem o que realmente significa e por que é tão crucial para o nosso futuro?</p>
+        <p>O desenvolvimento sustentável é uma forma de viver e usar os recursos naturais de maneira consciente, pensando nas necessidades das gerações presentes sem comprometer a capacidade das futuras gerações de suprirem suas próprias necessidades. Em outras palavras, é sobre equilibrar o crescimento econômico, a proteção ambiental e o bem-estar social.</p>
+        <p>Como jovens, temos um papel fundamental nesse processo. Podemos começar fazendo pequenas mudanças em nossas vidas diárias. Reduzir o consumo de plástico, economizar energia, reciclar, optar por transportes sustentáveis, como bicicleta ou transporte público, são algumas das ações que podemos adotar para contribuir com um futuro mais sustentável.</p>
+        <p>Além disso, é importante cobrar ações sustentáveis de empresas, governos e instituições. Participar de movimentos, assinar petições, compartilhar informações nas redes sociais e conscientizar outras pessoas são maneiras poderosas de promover mudanças positivas.</p>
+        <p>O desenvolvimento sustentável não se trata apenas do meio ambiente, mas também de garantir uma vida digna para todos. Devemos lutar por uma sociedade mais justa, que respeite os direitos humanos, promova a igualdade de gênero e combata a pobreza.</p>
+        <p>Lembre-se, nós, adolescentes, somos o futuro e temos o poder de fazer a diferença. Vamos nos unir em prol do desenvolvimento sustentável, cuidando do nosso planeta e construindo um mundo melhor para nós e para as próximas gerações. Juntos, podemos transformar o mundo!</p>
+        <p>Fiquem ligados no blog para mais dicas e informações sobre sustentabilidade. Vamos nessa!</p>
+        </div>
+    </div>
+
+    <style>
+        .textofinal {
+            width: 100%;
+        }
+
+        .index {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .index input {
+            width: 50%;
+            height: 2rem;
+            border-radius: 2rem;
+            border: none;
+            padding-left: 2rem;
+            background-color: #e1e1e1;
+        }
+
+        .fim {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 15rem;
+            flex-direction: column;
+            font-size: 1.3rem;
+            padding-top: 2rem;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .fim h3 {
+            font-weight: 200;
+        }
+    </style>
+
+    <div class="container3">
+        <div class="textofinal">
+            <h1>não encontrou o que procurava?</h1>
+        </div>
+        <div class="index">
+            <input type="text" placeholder="procure aqui!">
+        </div>
+        
+        <div class="fim">
+            <h3>contate-nos</h3>
+            <div class="sociais">
+                <p>@mds.gov em todas as redes sociais!</p>
+            </div>
+        </div>
+        </div>
+
+    <style>
+        .bottom {
+            width: 100%;
+            height: 15rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: rgba(0, 128, 0, 0.436);
+        }
+
+        .one {
+            display: flex;
+            flex-direction: column;
+            font-size: 2rem;
+        }
+
+        .one a {
+            font-family: Noto sans;
+            color: black;
+        }
+    </style>
+
+<div class="bottom">
+    <div class="one">
+      <a href="https://www.example.com/work-with-us">Trabalhe Conosco</a>
+      <a href="https://www.example.com/contact">Atendimento</a>
+      <a href="https://www.example.com/services">Nossos Serviços</a>
+    </div>
+  
+    <div class="one">
+      <a href="https://www.example.com/about">Sobre Nós</a>
+      <a href="https://www.example.com/blog">Blog</a>
+      <a href="https://www.example.com/faq">FAQ</a>
+    </div>
+  
+    <div class="one">
+      <a href="https://www.example.com/terms">Termos e Condições</a>
+      <a href="https://www.example.com/privacy">Política de Privacidade</a>
+      <a href="https://www.example.com/contact">Contato</a>
+    </div>
+  </div>
+  
+      
+    
